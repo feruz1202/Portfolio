@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=JetBrains+Mono:wght@300;400;500&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="sticky z-50 flex h-[8vh] w-full bg-[#f5f1ebe6] items-center justify-between px-10 text-xl shadow-lg">
+        <span class="text-3xl font-[Bebas_Neue] cursor-pointer">Ikromov Feruz</span>
+        <div class="gap-8 hidden md:flex font-[JetBrains_Mono]">
+            <span class="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#c8391a] after:transition-all after:duration-300 hover:after:w-full">About</span>
+            <span class="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#c8391a] after:transition-all after:duration-300 hover:after:w-full">Skills</span>
+            <span class="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#c8391a] after:transition-all after:duration-300 hover:after:w-full">Projects</span>
+            <span class="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#c8391a] after:transition-all after:duration-300 hover:after:w-full">Experience</span>
+            <span class="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#c8391a] after:transition-all after:duration-300 hover:after:w-full">Contact</span>
+        </div>
+        <a href="Feruz CV (updated).pdf" download="FERUZ CV.pdf"><button
+                class="bg-[#f5f1ebe6] border-[1px] text-xl p-2 hover:bg-black hover:text-white font-[JetBrains_Mono] cursor-pointer">Download</button></a>
+    </div>
+
+
+    <!-- PARENT -->
+    <div
+        class="bg-[#f5f1ebe6] min-h-[92vh] w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 px-6 lg:px-20 py-12 lg:py-0">
+
+        <!-- LEFT COLUMN -->
+        <div
+            class="flex flex-col w-full lg:w-[55%] gap-5 pl-0 lg:pl-35 items-center lg:items-start text-center lg:text-left">
+
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-[2px] bg-red-700"></div>
+                <span class="text-[11px] tracking-widest uppercase font-[JetBrains_Mono]">Available for
+                    Opportunities</span>
+            </div>
+
+            <div>
+                <h1 class="leading-none font-[Bebas_Neue] text-[119px]">IKROMOV</h1>
+                <h1 class="leading-none text-red-700 font-[Bebas_Neue] text-[119px]">FERUZ</h1>
+            </div>
+
+            <p class="italic text-[28px] font-[Crimson_Pro] ">Full Stack Developer and UI Enthusiast</p>
+
+            <p class="text-[18px] leading-relaxed max-w-md text-[Crimson_Pro]">
+                I build fast, accessible, and beautiful web experiences. Based in
+                <strong>Tashkent, Uzbekistan</strong> — working globally.
+            </p>
+
+            <div class="flex gap-4 mt-2">
+                <button
+                    class="bg-red-700 text-white px-6 py-3 text-[13px] tracking-widest uppercase font-[JetBrains_Mono] w-[150px] h-[47px] hover:bg-[#a82d14]">View
+                    Work</button>
+                <button
+                    class="border border-black px-6 py-3 text-[13px] tracking-widest uppercase font-[JetBrains_Mono] hover:bg-black hover:text-white">Let's
+                    Talk</button>
+            </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="flex flex-col items-center  w-full lg:w-[35%] gap-4">
+
+            <div class="relative bg-[#e8e0d5] w-[clamp(240px,28vw,380px)] aspect-[3/4] overflow-hidden">
+                <img src="IMG_20260503_183615.jpg" class="w-full h-full object-cover object-top" />
+            </div>
+
+            <div
+                class="flex items-center gap-2.5 font-mono text-[15px] px-4 py-2.5 bg-white border border-gray-200 w-fit">
+                <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                Open to full-time roles
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
