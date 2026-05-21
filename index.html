@@ -12,7 +12,8 @@
 
 <body>
     <!--  NAVBAR -->
-    <div class="sticky top-0 z-50 flex h-[8vh] w-full bg-[#f5f1ebe6] items-center justify-between px-10 text-xl shadow-lg">
+    <div
+        class="sticky top-0 z-50 flex h-[8vh] w-full bg-[#f5f1ebe6] items-center justify-between px-10  shadow-lg sm:text-sm text-lg lg:text-xl">
         <a href="#Home"><span class="text-2xl lg:text-3xl font-[Bebas_Neue] cursor-pointer">Ikromov Feruz</span></a>
         <div class="gap-8 hidden md:flex font-[JetBrains_Mono]">
             <a href="#About"><span
@@ -34,7 +35,8 @@
 
 
     <!-- PARENT --><!--  HOME PAGE -->
-    <div id="Home" class="bg-[#f5f1ebe6] min-h-0 lg:min-h-[92vh] w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 px-6 lg:px-20 py-12 lg:py-0 ">
+    <div id="Home"
+        class="bg-[#f5f1ebe6] min-h-0 lg:min-h-[92vh] w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 px-6 lg:px-20 py-12 lg:py-0 ">
 
         <!-- LEFT COLUMN -->
         <div
@@ -47,8 +49,8 @@
             </div>
 
             <div>
-                <h1 class="leading-none font-[Bebas_Neue] text-[119px]">IKROMOV</h1>
-                <h1 class="leading-none text-red-700 font-[Bebas_Neue] text-[119px]">FERUZ</h1>
+                <h1 class="leading-none font-[Bebas_Neue] lg:text-[119px] text-[90px]">IKROMOV</h1>
+                <h1 class="leading-none text-red-700 font-[Bebas_Neue] lg:text-[119px] text-[90px]">FERUZ</h1>
             </div>
 
             <p class="italic text-[28px] font-[Crimson_Pro] ">Full Stack Developer and UI Enthusiast</p>
@@ -63,7 +65,7 @@
                     class="bg-red-700 text-white px-6 py-3 text-[13px] tracking-widest uppercase font-[JetBrains_Mono] w-[150px] h-[47px] hover:bg-[#a82d14] focus:bg-[#a82d14]">View
                     Work</button>
                 <button
-                    class="border border-black px-6 py-3 text-[13px] tracking-widest uppercase font-[JetBrains_Mono] hover:bg-black hover:text-white focus:bg-black focus:text-white">Let's
+                    class="border border-black px-6 py-3 text-[13px] tracking-widest uppercase font-[JetBrains_Mono] w-[150px] h-[47px] hover:bg-black hover:text-white focus:bg-black focus:text-white">Let's
                     Talk</button>
             </div>
 
@@ -86,7 +88,7 @@
 
     <!--  ABOUT PAGE -->
     <div id="About"
-        class="bg-[#1a1714] min-h-0 lg:h-[100vh] w-full flex flex-col lg:flex-row items-start justify-center p-10 gap-10">
+        class="bg-[#1a1714] min-h-screen w-full flex flex-col lg:flex-row items-start justify-center p-10 gap-10">
         <!-- #Left Column -->
         <div
             class="w-full lg:w-[60%] flex flex-col gap-5 pl-0 lg:pl-55 items-start lg:items-start text-left lg:text-left lg:pt-30">
@@ -106,13 +108,10 @@
                     is the kind users never have to think about.</p>
             </div>
 
-            <div class="border-l-2 border-red-700 pl-6 bg-[#ffffff0a] h-23 w-[300px] md:w-100">
+            <div class="border-l-2 border-red-700 pl-6 bg-[#ffffff0a] w-[300px] md:w-100">
                 <p class="italic text-white text-[clamp(20px,1.5vw,18px)] font-[Crimson_Pro] mb-2 text-xl">
                     "I don't just write code — I solve problems and craft experiences."
                 </p>
-                <span class="text-[#c8391a] text-[11px] tracking-widest uppercase font-[JetBrains_Mono] mt-2 block">
-                    — Your personal philosophy
-                </span>
             </div>
         </div>
 
@@ -156,7 +155,7 @@
     </div>
 
     <!-- SKILLS PAGE -->
-    <div id="Skills" class="bg-[#f5f1ebe6] md:h-[100vh] h-[1473px] w-full">
+    <div id="Skills" class="bg-[#f5f1ebe6] min-h-screen w-full">
         <div class="px-10 lg:px-40 py-16">
             <span class="text-[14px] font-[JetBrains_Mono] text-[#c8391a]">SKILLS</span>
             <h2 class="text-[clamp(48px,8vw,98px)] text-black leading-none font-[Bebas_Neue]">What i work <br>with<br>
@@ -295,10 +294,11 @@
                 </div>
             </div>
             <!-- SOFT SKILLS SECTION -->
-            <div class="border border-gray-200 p-6 lg:col-span-3 flex flex-col gap-4 bg-white">
+            <div
+                class="border border-gray-200 p-6 grid-cols-1 lg:col-span-3 flex flex-col gap-4 bg-white px-4 md:px-10 lg:px-20">
                 <span class="text-gray-500 text-[11px] tracking-widest uppercase font-[JetBrains_Mono]">Soft Skills &
                     Traits</span>
-                <div class="flex flex-wrap gap-3 max-w-5xl">
+                <div class="flex flex-wrap gap-3.5 max-w-6xl">
                     <span
                         class="border border-gray-400 px-4 py-2 text-[12px] font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">Fast
                         Learner
@@ -336,6 +336,198 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- PROJECTS PAGE -->
+        <div class="bg-[#1a1714] min-h-screen">
+
+            <div class="px-10 lg:px-40 py-16">
+                <span class="text-[14px] font-[JetBrains_Mono] text-[#c8391a]">PROJECTS</span>
+                <h2 class="text-[72px] font-[Bebas_Neue] text-white leading-none">THINGS I'VE<br>ACTUALLY BUILT</h2>
+                <p class="italic text-[18px] text-gray-500 font-[Crimson_Pro] max-w-md">Real projects — deployed,
+                    linked, and documented. Every project here is something a recruiter can click and use right now.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-10 lg:px-40 h-auto overflow-visible">
+                <!-- Featured project - spans both columns -->
+                <div class="lg:col-span-2 border border-red-700 p-7 flex flex-col lg:flex-row gap-7 hover:bg-[#252118]">
+                    <div class="flex flex-col lg:w-[55%]">
+
+                        <div
+                            class="bg-red-700 text-white text-[12px] w-36 h-8 flex items-center justify-center tracking-widest font-[JetBrains_Mono]">
+                            FEATURED PROJECT
+                        </div>
+                        <h2
+                            class="text-[clamp(24px,5vw,32px)] tracking-wide font-[Bebas_Neue] text-white leading-[1.9]">
+                            WEATHER DASHBOARD
+                            APP</h2>
+                        <p class="text-[18px] text-gray-500 max-w-lg font-[Crimson_Pro] leading-[1.4]">A real-time
+                            weather
+                            app that lets user search any city worldwide and see current conditions, 5-day forecast, UV
+                            index and humidity. Built as my first API project</p>
+
+                        <span
+                            class="text-[11px] block text-[#c8391a] font-[JetBrains_Mono] tracking-[.15em] mt-7">WHAT
+                            I BUILT /
+                            LEARNT</span>
+                        <div class="flex gap-3 items-center">
+                            <span class="text-red-700 mt-1">—</span>
+                            <span class="text-gray-500 font-[Crimson_Pro]">Integrated OpenWeatherMap REST API</span>
+                        </div>
+                        <div class="flex gap-3 items-center">
+                            <span class="text-red-700 mt-1">—</span>
+                            <span class="text-gray-500 font-[Crimson_Pro]">Built dynamic search with keyboard accessibility</span>
+                        </div>
+                        <div class="flex gap-3 items-center">
+                            <span class="text-red-700 mt-1">—</span>
+                            <span class="text-gray-500 font-[Crimson_Pro]">Implemented responsive layout with CSS Grid</span>
+                        </div>
+                        <div class="flex gap-3 items-center">
+                            <span class="text-red-700 mt-1">—</span>
+                            <span class="text-gray-500 font-[Crimson_Pro]">Handled API errors with user-friendly messages</span>
+                        </div>
+
+                        <div class="flex flex-wrap gap-3.5 max-w-6xl mt-5">
+                            <span
+                                class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">HTML
+                                5
+                            </span>
+                            <span
+                                class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">CSS
+                                3
+                            </span>
+                            <span
+                                class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">JavaScript
+                            </span>
+                            <span
+                                class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">Fetch
+                                API
+                            </span>
+                            <span
+                                class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">OpenWeatherMap
+                                API
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-[45%] relative">
+
+                        <!-- Screenshot box -->
+                        <div class="w-full aspect-video bg-[#2a2a2a] flex items-center justify-center mt-8">
+                            <span class="font-[JetBrains_Mono] text-gray-600 text-[12px] tracking-widest">SCREENSHOT
+                                /
+                                PREVIEW HERE</span>
+                            <!-- Replace with: <img src="screenshot.png" class="w-full h-full object-cover" /> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Smaller card 1 - takes 1 column -->
+                <div class="lg:col-span-1 border border-red-700 p-4 hover:bg-[#252118]">
+                    <div
+                        class="bg-red-700 text-white text-[12px] w-36 h-8 flex items-center justify-center tracking-widest font-[JetBrains_Mono]">
+                        FEATURED PROJECT
+                    </div>
+                    <h2 class="text-[clamp(24px,5vw,32px)] tracking-wide font-[Bebas_Neue] text-white leading-[1.9]">
+                        BAKERY STORE
+                    </h2>
+                    <p class="text-[18px] text-gray-500 max-w-lg font-[Crimson_Pro] leading-[1.4]">
+                        A fully responsive multi-page website for a local bakery. Features a menu, gallery, and contact
+                        form with clean UI and warm aesthetic.
+                    </p>
+
+                    <span
+                        class="text-[11px] block text-[#c8391a] font-[JetBrains_Mono] tracking-[.15em] leading-[1.9] mt-7">WHAT
+                        I BUILT /
+                        LEARNT</span>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Built responsive layout with Tailwind CSS</span>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Designed clean UI with custom color
+                            palette</span>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Implemented smooth scroll and hover
+                            animations</span>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Mobile-first approach across all pages</span>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3.5 max-w-6xl mt-5">
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">HTML
+                            5
+                        </span>
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">Tailwind
+                            CSS
+                        </span>
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">JavaScript
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Smaller card 2 - takes 1 column -->
+                <div class="lg:col-span-1 border border-red-700 p-4 hover:bg-[#252118]">
+                    <div
+                        class="bg-red-700 text-white text-[12px] w-36 h-8 flex items-center justify-center tracking-widest font-[JetBrains_Mono]">
+                        FEATURED PROJECT
+                    </div>
+                    <h2 class="text-[clamp(24px,5vw,32px)] tracking-wide font-[Bebas_Neue] text-white leading-[1.9]">
+                        PYTHON AUTOMATION SCRIPTS
+                    </h2>
+                    <p class="text-[18px] text-gray-500 max-w-lg font-[Crimson_Pro] leading-[1.4]">A real-time
+                        A collection of practical Python scripts that automate repetitive tasks — file organizer, web scraper, and email sender.
+                    </p>
+
+                    <span
+                        class="text-[11px] block text-[#c8391a] font-[JetBrains_Mono] tracking-[.15em] leading-[1.9] mt-7">WHAT
+                        I BUILT /
+                        LEARNT</span>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Built file organizer that sorts by extension automatically</span>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Scraped data from websites using BeautifulSoup</span>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Automated email sending with smtplib</span>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="text-red-700 mt-1">—</span>
+                        <span class="text-gray-500 font-[Crimson_Pro]">Integrated OpenWeatherMap REST API</span>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3.5 max-w-6xl mt-5">
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">PYTHON
+                        </span>
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">BeautifulSoup
+                        </span>
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">SMTPLIB
+                        </span>
+                        <span
+                            class="border border-gray-400 px-4 py-2 text-[11px] text-gray-500 font-[JetBrains_Mono] hover:border-red-700 hover:text-red-700 transition-all duration-300">AUTOMATION
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </body>
 
 </html>
